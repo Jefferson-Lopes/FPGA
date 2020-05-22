@@ -1,2 +1,2 @@
 Criar um circuito com FPGA que fará a correlação de sinais,
-tendo como a saída a sua semelhança.
+tendo como saída a sua semelhança.
