@@ -5,3 +5,6 @@ tendo como saída a sua semelhança.
 usar duas saídas PWM do arduíno, e usando dois potenciômetro, fazer a modulação
 desses sinais.
 Já no FPGA, ele fará a leitura dos dois sinais PWM dará a correlação entre eles.
+
+2ª ideia:
+usar as saídas analógicas do arduino
