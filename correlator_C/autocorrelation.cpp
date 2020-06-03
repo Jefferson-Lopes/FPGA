@@ -2,7 +2,7 @@
 Autocorrelação de sinais
 
 Programa para calcular a autocorrelação entre o mesmo sinal
-deslocado no tempo.
+deslocado no tempo, com quantidade de bits variável.
 
 
 by Jefferson Lopes

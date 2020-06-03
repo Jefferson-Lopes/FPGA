@@ -1,6 +1,8 @@
 --
 --   Projeto: Máquina de lavar
 --
+--   Projeto baseado no livro Sistemas Digitais, do Tocci
+--
 --   Jefferson Lopes
 --   20/05/20
 --
