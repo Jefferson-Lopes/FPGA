@@ -13,7 +13,7 @@ by Jefferson Lopes
 
 using namespace std;
 
-#define SIZE 5 //quantidade de bits à ser analisado
+#define SIZE 4 //quantidade de bits à ser analisado
 
 void autocorrelation(int *, int *);
 void printCorrelation(int *, int *);
@@ -24,7 +24,7 @@ int main(){
 	int signal[SIZE] = {};
 	int correlation[(2*SIZE - 1)] = {}; 
 
-	cout << "Insira " << SIZE << " numeros naturais para representar o sinal" << endl;
+	cout << endl << "Insira " << SIZE << " numeros naturais para representar o sinal" << endl;
 	for (int i = 0; i < SIZE; i++) { cin  >> signal[i]; } 
 
 	autocorrelation(signal, correlation);
@@ -51,37 +51,22 @@ void autocorrelation(int *signal, int *correlation){
 void printCorrelation(int *signal, int *correlation){
 	cout << endl << endl;
 	for(int i = 0; i < (2*SIZE - 1); i++){
-		if(i < SIZE){
-			for(int y = 0; y < (SIZE - 1 - i); y++)
-				cout << "  ";
+		for(int y = 1; y < SIZE; y++)
+			cout << "  ";
 
-			for(int y = 0; y < SIZE; y++)
-				cout << signal[y] << " ";
+		for(int y = 0; y < SIZE; y++)
+			cout << signal[y] << " ";
 
-			cout << endl;
+		cout << endl;
 
-			for(int y = 0; y < SIZE; y++)
-				cout << signal[y] << " ";
+		for(int y = 0; y < i; y++)
+			cout << "  ";
 
-			cout << endl;
-			cout << "Autocorrelation " << correlation[i];
-			cout << endl << endl;
-		}
-		else{
-			for(int y = 0; y < SIZE; y++)
-				cout << signal[y] << " ";
+		for(int y = 0; y < SIZE; y++)
+			cout << signal[y] << " ";
 
-			cout << endl;
-
-			for(int y = 0; y <= (i - SIZE); y++)
-				cout << "  ";
-
-			for(int y = 0; y < SIZE; y++)
-				cout << signal[y] << " ";
-
-			cout << endl;
-			cout << "Autocorrelation " << correlation[i];
-			cout << endl << endl;
-		}
+		cout << endl;
+		cout << "Autocorrelation: " << correlation[i];
+		cout << endl << endl;
 	}
 }
