@@ -8,3 +8,6 @@ These are my projects with FPGA
 ## Online compilers and software
 * [EDA playground](https://www.edaplayground.com/)
 * [Quartus Prime](https://fpgasoftware.intel.com/19.1/?edition=lite&platform=windows)
+
+## Contact me
+[e-mail](mailto:jefferson.lopes@ee.ufcg.edu.br)
