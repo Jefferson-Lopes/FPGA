@@ -13,7 +13,7 @@ by Jefferson Lopes
 
 using namespace std;
 
-#define SIZE 4 //quantidade de bits à ser analisado
+#define SIZE 3 //quantidade de bits à ser analisado
 
 void autocorrelation(int *, int *);
 void printCorrelation(int *, int *);
