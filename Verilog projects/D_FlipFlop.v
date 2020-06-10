@@ -1,6 +1,7 @@
 //D flip-flop code
 
 module D_FlipFlop (d, clk, q, q_bar);
+	
 	input d, clk;
 	output q, q_bar;
 	wire d, clk;
