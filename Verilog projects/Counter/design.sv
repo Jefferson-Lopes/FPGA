@@ -23,3 +23,6 @@ module counter(clk, rst, enable, Cout);
     end
   end
 endmodule
+
+    
+  

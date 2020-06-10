@@ -11,9 +11,11 @@ module counter_tb();
   wire [3:0] cout;
   
   initial begin
-    $display("time\t  clk	rst	 enable");
-    $monitor("%g\t   %b	   %b    %b", $time, clk, rst, enable, cout);
-	 clk = 1;
+    $dumpfile("dump.vcd");
+    $dumpvars(1, counter_tb);
+    $display("time\t  clk  rst enable  counter");
+    $monitor("%g\t   %b    %b    %b      %b", $time, clk, rst, enable, cout);
+	clk = 1;
     rst = 0;
     enable = 0;
     #5 rst = 1;
@@ -29,3 +31,4 @@ module counter_tb();
   
 endmodule
     
+  
