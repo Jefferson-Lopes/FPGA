@@ -15,7 +15,7 @@ module counter_tb();
     $dumpvars(1, counter_tb);
     $display("time\t  clk  rst enable  counter");
     $monitor("%g\t   %b    %b    %b      %b", $time, clk, rst, enable, cout);
-	clk = 1;
+    clk = 1;
     rst = 0;
     enable = 0;
     #5 rst = 1;
