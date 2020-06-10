@@ -66,7 +66,7 @@ void printCorrelation(int *signal, int *correlation){
 			cout << signal[y] << " ";
 
 		cout << endl;
-		cout << "Autocorrelation: " << correlation[i];
+		cout << "out[" << i << "]: " << correlation[i];
 		cout << endl << endl;
 	}
 }
