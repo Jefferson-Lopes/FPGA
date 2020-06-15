@@ -22,17 +22,19 @@ int main(){
 }
 
 void shift_register(bool *input){
-    int i = 0;
+    int i = 4;
 
     while(cin >> input[i]){
-        if (i == 4){
-            i = 0;
+        if (i == 0){
+            i = 4;
             cout << endl << "Dados: ";
-            for (int y = 0; y < 5; y++)
+            for (int y = 4; y >= 0; y--)
                 cout << input[y];
-            cout << endl << endl;
-        }else
-            i++;
+            cout << endl << "Clk_out: 1" << endl << endl; //carrega os dados para o _correlator_
+        }else{
+            i--;
+            cout << "Clk_out: 0" << endl;
+        }
     }
     cout << endl << "End";
 }
