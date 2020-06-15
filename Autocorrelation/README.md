@@ -2,7 +2,7 @@
  Autocorrelation Project
  
 # Block diagram
-![]("Output files/Diagram.png")
+![]("Output_files/Diagram.png")
 
 ## Shift register
  Turns one-way input into 3-way output
