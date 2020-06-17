@@ -9,7 +9,6 @@ by Jefferson Lopes
 */
 
 #include <iostream>
-#include <string>
 
 using namespace std;
 

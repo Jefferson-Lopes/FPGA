@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -8,7 +7,7 @@ void shift_register(bool *);
 int main(){
 	setlocale(LC_ALL, "");
 
-    bool input[5] = {};
+    bool input[3] = {};
 
     cout << "\nShift register" << endl << endl;
     cout << "Insira uma entrada serial:" << endl; 
