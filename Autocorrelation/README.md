@@ -5,15 +5,15 @@
 ![](Output_files/Diagram.png)
 
 ## Shift register
- Turns one-way input into 3-way output
+ Turns one-way input into 3-way output &nbsp;
  ![](Output_files/ShiftRegister.png)
  
 ## Correlator
- Autocorrelates the dada
+ Autocorrelates the dada &nbsp;
  ![](Output_files/Correlator.png)
  
 ## Decoder
- Decodes the result to a seven-segment display
+ Decodes the result to a seven-segment display &nbsp;
  ![](Output_files/Decoder.png)
 
 ## Contact me
