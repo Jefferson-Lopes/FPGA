@@ -4,6 +4,9 @@
 # Block diagram
 ![](Output_files/Diagram.png)
 
+# Test
+![](Output_files/test.png)
+
 ## Shift register
  Turns one-way input into 3-way output
  
