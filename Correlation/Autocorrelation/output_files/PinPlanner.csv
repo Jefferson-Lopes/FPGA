@@ -1,0 +1,41 @@
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# File: C:\Users\jeff7\Documents\HDL\Verilog\Autocorrelation\output_files\PinPlanner.csv
+# Generated on: Wed Jun 10 15:19:52 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+clk,Input,PIN_J15,5,B5_N0,PIN_J15,2.5 V,,,,,
+in[2],Input,PIN_B9,7,B7_N0,PIN_B9,2.5 V,,,,,
+in[1],Input,PIN_T8,3,B3_N0,PIN_T8,2.5 V,,,,,
+in[0],Input,PIN_M1,2,B2_N0,PIN_M1,2.5 V,,,,,
+out[0],Output,,,,,,,,,,
+out[1],Output,,,,,,,,,,
+out[2],Output,,,,,,,,,,
+out[3],Output,,,,,,,,,,
+out[4],Output,,,,,,,,,,
+out[0][0],Output,PIN_A15,7,B7_N0,PIN_A15,2.5 V,,,,,
+out[0][1],Output,PIN_A13,7,B7_N0,PIN_A13,2.5 V,,,,,
+out[1][0],Output,PIN_B13,7,B7_N0,PIN_B13,2.5 V,,,,,
+out[1][1],Output,PIN_A11,7,B7_N0,PIN_A11,2.5 V,,,,,
+out[2][0],Output,PIN_D1,1,B1_N0,PIN_D1,2.5 V,,,,,
+out[2][1],Output,PIN_F3,1,B1_N0,PIN_F3,2.5 V,,,,,
+out[3][0],Output,PIN_B1,1,B1_N0,PIN_B1,2.5 V,,,,,
+out[3][1],Output,PIN_L3,2,B2_N0,PIN_L3,2.5 V,,,,,
+out[4][0],Output,,,,PIN_J16,,,,,,
+out[4][1],Output,,,,PIN_M8,,,,,,
