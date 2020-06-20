@@ -1,5 +1,5 @@
 /*
-Autocorrelation
+Shift Register
 
 by Jefferson Lopes
 
@@ -25,20 +25,20 @@ LED[7] - L3
 module shift_register (in, clk, out, clk_out);
   input in;
   input clk;
-  output reg [4:0]out;
+  output reg [2:0]out;
   output reg clk_out;
   
-  integer i = 4;
+  integer i = 2;
   integer y = 0;
-  integer hold[4:0];
+  integer hold[2:0];
   
   initial $monitor("i = %b\ny = %b\n", i, y);
   
   always @ (negedge clk) begin //Pull up resistor
     hold[i] <= in;
-    if (i == 0) begin
-      i = 4;
-      for(y = 0; y < 5; y = y + 1) begin
+    if (i == 1'b0) begin
+      i = 2;
+      for(y = 0; y < 3; y = y + 1) begin
         out[y] <= hold[y];
       end
 		clk_out <= 1; //carrega os dados para o _correlator_
