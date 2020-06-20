@@ -1,6 +1,8 @@
-// Shift Register
-
 /*
+Autocorrelation
+
+by Jefferson Lopes
+
 Pin Planer
 
 in
