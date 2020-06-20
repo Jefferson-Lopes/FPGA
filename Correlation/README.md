@@ -9,10 +9,10 @@
 
  ![](Output_files/ShiftRegister.png)
  
-## Correlator
+## Autocorrelator
  Autocorrelates the dada
 
- ![](Output_files/Correlator.png)
+ ![](Output_files/Autocorrelator.png)
  
 ## Decoder
  Decodes the result to a seven-segment display

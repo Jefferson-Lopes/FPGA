@@ -1,5 +1,5 @@
 /*
-Autocorrelation
+Autocorrelator
 
 by Jefferson Lopes
 
@@ -35,7 +35,7 @@ LED[7] - L3
 
 */
 
-module Autocorrelation (in, clk, out);
+module autocorrelator (in, clk, out);
   input in;
   input clk;
   output out;
@@ -50,7 +50,7 @@ module Autocorrelation (in, clk, out);
   
   reg [1:0]out[5];//5 elementos com 2 bits
   
-  initial $display("Autocorrelation 2 bits \n \n");
+  initial $display("Autocorrelator 2 bits \n \n");
   
   always @ (posedge clk) begin
     for(i = 0; i < 5; i = i+1) begin
