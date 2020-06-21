@@ -41,7 +41,6 @@ void cross_correlator(bool *input1, bool *input2, int *resul){
     }
 }
 
-
 void print_cross(bool *input1, bool *input2, int *resul){
     cout << endl << endl;
 	for(int i = 0; i < (2*SIZE - 1); i++){
