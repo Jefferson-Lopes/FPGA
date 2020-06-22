@@ -39,7 +39,7 @@ void autocorrelation(int *signal, int *correlation){
 			diffe = (SIZE - 1) - i;
 			for(int y = 0; y <= i; y++, diffe++)
 				hold += signal[y] * signal[diffe];
-		}
+		}                               
 		else
 			hold = correlation[(2*SIZE - 2) - i];
 		
