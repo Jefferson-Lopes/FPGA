@@ -12,8 +12,6 @@ Correlação é uma medida de similaridade entre sinais, podendo ser uma autocor
 
 (Adicionar equação)
 
-Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Autocorrelation)
-
 ## Correlação cruzada
 É a correlação aplicada a dois sinais, resultando na similaridade entre eles
 
