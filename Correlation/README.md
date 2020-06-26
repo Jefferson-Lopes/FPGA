@@ -1,26 +1,29 @@
-# Correlação
-Este projeto implementa no FPGA um circuito para fazer a autocorrelação entre o mesmo sinal deslocado no tempo e outro circuito para fazer a correlação cruzada entre dois sinais 
+# Correlation
+In general, correlation describes the mutual relationship which exists between two or more things. The same definition holds good even in the case of signals. That is, correlation between signals indicates the measure up to which the given signal resembles another signal. 
 
-## FPGA
-O FPGA (field-programmable gate arrays) é um chip programável,  
+Depending on whether the signals considered for correlation are same or different, we have two kinds of correlation: autocorrelation and cross-correlation.
 
-## Correlação
-Correlação é uma medida de similaridade entre sinais, podendo ser uma autocorrelação ou uma correlação cruzada
+## Autocorrelation
+This is a type of correlation in which the given signal is correlated with itself, usually the time-shifted version of itself. Mathematical expression for the autocorrelation of continuous time signal x (t) is given by
 
-## Autocorrelação
-É um tipo de correlação que é feita entre o sinal e ele mesmo deslocado no tempo e é expressa pela equação abaixo:
+    (add expression)
 
-(Adicionar equação)
+Similarly the autocorrelation of the discrete time signal x[n] is expressed as
 
-Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Autocorrelation)
+    (add expression)
 
-## Correlação cruzada
-É a correlação aplicada a dois sinais, resultando na similaridade entre eles e é expressa pela equação abaixo:
+Learn more about this project, [click here](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Autocorrelation)
 
-(Adicionar equação)
+## Cross-Correlation
+This is a kind of correlation, in which the signal in-hand is correlated with another signal so as to know how much resemblance exists between them. Mathematical expression for the cross-correlation of continuous time signals x (t) and y (t) is given by
 
-Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Cross_correlation)
+    (add expression)
+
+Similarly, the cross-correlation of the discrete time signals x [n] and y [n] is expressed as
+
+    (add expression)
+
+Learn more about this project, [click here](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Cross_correlation)
 
 ## Contact me
-[![](Output_files/gmail.png)](mailto:jefferson.lopes@ee.ufcg.edu.br)     [![](Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
- 
+[![](Output_files/gmail.png)](mailto:jefferson.lopes@ee.ufcg.edu.br) ![](Output_files/separador.png) [![](Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
