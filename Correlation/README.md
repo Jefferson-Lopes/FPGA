@@ -1,6 +1,27 @@
-# Autocorrelation(ongoing project)
- Autocorrelation Project
+# Correlação
+Este projeto implementa no FPGA um circuito para fazer a autocorrelação entre o mesmo sinal deslocado no tempo e outro circuito para fazer a correlação cruzada entre dois sinais 
+
+## FPGA
+O FPGA (field-programmable gate arrays) é um chip programável,  
+
+## Correlação
+Correlação é uma medida de similaridade entre sinais, podendo ser uma autocorrelação ou uma correlação cruzada
+
+## Autocorrelação
+É um tipo de correlação que é feita entre o sinal e ele mesmo deslocado no tempo e é expresso pela equação abaixo:
+
+(Adicionar equação)
+
+## Correlação cruzada
+É a correlação aplicada a dois sinais, resultando na similaridade entre eles
+
+## Entidade Top-level
+![](Output_files/Autocorrelation.png)
  
+
+
+
+
 # Block diagram
 ![](Output_files/Diagram.png)
 
