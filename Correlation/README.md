@@ -16,7 +16,8 @@ Correlação é uma medida de similaridade entre sinais, podendo ser uma autocor
 É a correlação aplicada a dois sinais, resultando na similaridade entre eles
 
 ## Entidade Top-level
-![](Output_files/Autocorrelation.png)
+
+![](Output_files/Correlation.png)
  
 
 
