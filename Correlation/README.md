@@ -22,5 +22,5 @@ Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lope
 Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Cross_correlation)
 
 ## Contact me
-[![](Output_files/gmail.png)](jefferson.lopes@ee.ufcg.edu.br)     [![](Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
+[![](Output_files/gmail.png)](mailto:jefferson.lopes@ee.ufcg.edu.br)     [![](Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
  

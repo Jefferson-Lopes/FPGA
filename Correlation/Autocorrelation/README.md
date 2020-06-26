@@ -43,4 +43,4 @@ As duas entidades top-level foram feitas em um arquivo .BDF, ou seja, foi feito 
  ![](../Output_files/Decoder.png)
 
 ## Contact me
-[![](../Output_files/gmail.png)](jefferson.lopes@ee.ufcg.edu.br)     [![](../Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
+[![](../Output_files/gmail.png)](mailto:jefferson.lopes@ee.ufcg.edu.br)     [![](../Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
