@@ -8,41 +8,19 @@ O FPGA (field-programmable gate arrays) é um chip programável,
 Correlação é uma medida de similaridade entre sinais, podendo ser uma autocorrelação ou uma correlação cruzada
 
 ## Autocorrelação
-É um tipo de correlação que é feita entre o sinal e ele mesmo deslocado no tempo e é expresso pela equação abaixo:
+É um tipo de correlação que é feita entre o sinal e ele mesmo deslocado no tempo e é expressa pela equação abaixo:
 
 (Adicionar equação)
 
 Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Autocorrelation)
 
 ## Correlação cruzada
-É a correlação aplicada a dois sinais, resultando na similaridade entre eles
+É a correlação aplicada a dois sinais, resultando na similaridade entre eles e é expressa pela equação abaixo:
 
-## Entidade Top-level
-As duas entidades top-level foram feitas em um arquivo .BDF, ou seja, foi feito o circuito a partir de outros blocos pré montados, como o ShiftRegister, autocorrelator e  
+(Adicionar equação)
 
-![](Output_files/Correlation.png)
- 
-
-
-
-
-# Block diagram
-![](Output_files/Diagram.png)
-
-## Shift register
- Turns one-way input into 3-way output
-
- ![](Output_files/ShiftRegister.png)
- 
-## Autocorrelator
- Autocorrelates the dada
-
- ![](Output_files/Autocorrelator.png)
- 
-## Decoder
- Decodes the result to a seven-segment display
- 
- ![](Output_files/Decoder.png)
+Entenda mais sobre esse projeto, [clique aqui](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Cross_correlation)
 
 ## Contact me
- jefferson.lopes@ee.ufcg.edu.br
+[![](Output_files/gmail.png)](jefferson.lopes@ee.ufcg.edu.br) [![](Output_files/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
+ 
