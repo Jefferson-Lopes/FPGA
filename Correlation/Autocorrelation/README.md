@@ -5,7 +5,7 @@
 
 This entity was assembled in a .BDF file from other blocks, such as ***Shift Register***, ***Autocorrelator***, and ***Decoder***.
 
-RTL code:
+RTL view:
 
 ![](../Output_files/Top-level-Auto.png)
 
@@ -46,7 +46,7 @@ module shift_register (in, clk, out, clk_out);
 endmodule
 ~~~
 
-RTL code:
+RTL view:
 
 ![](../Output_files/ShiftRegister.png)
 
@@ -103,7 +103,7 @@ module autocorrelator (in, clk, out0, out1, out2, out3, out4);
 endmodule
 ~~~
 
-RTL code:
+RTL view:
 
 ![](../Output_files/Autocorrelator.png)
 
@@ -137,7 +137,7 @@ module decoder(in, display);
 endmodule
 ~~~
 
-RTL code:
+RTL view:
 
 ![](../Output_files/Decoder.png)
 
