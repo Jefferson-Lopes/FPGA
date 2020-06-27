@@ -54,9 +54,9 @@ RTL view:
 
 This block makes the autocorrelation between the input signal with itself shifted in time.
 
-The input is a 3-bit vector, which represents the serial input signal, and the output is 5 vectors of 2 bits each, which represent the autocorrelation in binary. 
+The input is a 3-bit vector, which represents the serial input signal, and the outputs are 5 vectors of 2 bits each, which represent the autocorrelation in binary. 
 
-NOTE: the logic used was made in C ++ and then adapted for Verilog, to facilitate the writing of ideas.
+NOTE: the logic used was made in C++ and then adapted for Verilog, to facilitate the writing of ideas.
 
 ~~~verilog
 module autocorrelator (in, clk, out0, out1, out2, out3, out4);

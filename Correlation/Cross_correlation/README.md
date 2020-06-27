@@ -58,7 +58,7 @@ This block correlates two input signals.
 
 The inputs are two vectors of 3 bits, which represent the signals of the serial input, and the outputs are 5 vectors of 2 bits each, which represent the cross-correlation in binary.
 
-NOTE: the logic used was made in C ++ and then adapted for Verilog, to facilitate the writing of ideas.
+NOTE: the logic used was made in C++ and then adapted for Verilog, to facilitate the writing of ideas.
 
 ~~~verilog
 module cross_correlator(in1, in2, clk, out0, out1, out2, out3, out4);
