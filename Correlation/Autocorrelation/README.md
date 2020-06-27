@@ -37,10 +37,10 @@ module shift_register (in, clk, out, clk_out);
             for(y = 0; y < 3; y = y + 1) begin
                 out[y] <= hold[y];
             end
-		    clk_out <= 1;
+		clk_out <= 1;
         end else begin
             i <= i - 1;
-		    clk_out <= 0;
+	    clk_out <= 0;
         end 
     end
 endmodule
@@ -63,13 +63,13 @@ module autocorrelator (in, clk, out0, out1, out2, out3, out4);
     input wire [2:0] in;
     input wire clk;
     output reg [1:0]out0;
-	output reg [1:0]out1;
-	output reg [1:0]out2;
-	output reg [1:0]out3;
-	output reg [1:0]out4;
+    output reg [1:0]out1;
+    output reg [1:0]out2;
+    output reg [1:0]out3;
+    output reg [1:0]out4;
 	
-	reg [1:0] hold;
-	reg [1:0] hold2[5];
+    reg [1:0] hold;
+    reg [1:0] hold2[5];
   
     integer i;
     integer diffe;
@@ -83,8 +83,8 @@ module autocorrelator (in, clk, out0, out1, out2, out3, out4);
             if(i < 3) begin
                 diffe = 2 - i;
                 for(y = 0; y <= i; y = y + 1) begin
-                   hold = hold + (in[y] * in[diffe]);
-                   diffe = diffe + 1;
+                    hold = hold + (in[y] * in[diffe]);
+                    diffe = diffe + 1;
                 end
             end else begin
                 hold = hold2[4 - i];
@@ -93,11 +93,12 @@ module autocorrelator (in, clk, out0, out1, out2, out3, out4);
             hold2[i] = hold;
             hold = 0;
         end
-		out0 = hold2[0];
-		out1 = hold2[1];
-		out2 = hold2[2];
-		out3 = hold2[3];
-		out4 = hold2[4];
+	
+	out0 = hold2[0];
+	out1 = hold2[1];
+	out2 = hold2[2];
+	out3 = hold2[3];
+	out4 = hold2[4];
     end
 
 endmodule
@@ -124,13 +125,13 @@ module decoder(in, display);
             display <= 7'b1111110;         // abcdef0
        
         end else if (in == 2'b01) begin    // 1
-  	        display <= 7'b0110000;         // 0bc0000
+  	    display <= 7'b0110000;         // 0bc0000
        
         end else if (in == 2'b10) begin    // 2
-  	        display <= 7'b1101101;         // ab0de0g
+  	    display <= 7'b1101101;         // ab0de0g
        
         end else if (in == 2'b11) begin    // 3
-  	        display <= 7'b1111001;         // abcd00g  
+  	    display <= 7'b1111001;         // abcd00g  
         end
     end
 
