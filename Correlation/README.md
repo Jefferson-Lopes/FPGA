@@ -6,7 +6,7 @@ Depending on whether the signals considered for correlation are same or differen
 ## Autocorrelation
 This is a type of correlation in which the given signal is correlated with itself, usually the time-shifted version of itself. Mathematical expression for the autocorrelation of continuous time signal x (t) is given by
 
-    ![](https://latex.codecogs.com/gif.latex?Rxx%28%5Ctau%20%29%20%3D%20%5Cint_%7B-%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20x%28t%29x%5E*%28t%20-%20%5Ctau%20%29dt)
+    ![](https://latex.codecogs.com/gif.latex?R=x)
 
 Similarly the autocorrelation of the discrete time signal x[n] is expressed as
 
