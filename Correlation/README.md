@@ -19,11 +19,11 @@ Learn more about this project, [click here](https://github.com/Jefferson-Lopes/F
 ## Cross-Correlation
 This is a kind of correlation, in which the signal in-hand is correlated with another signal so as to know how much resemblance exists between them. Mathematical expression for the cross-correlation of continuous time signals x (t) and y (t) is given by
 
-    (add expression)
+![](https://latex.codecogs.com/gif.latex?Rxy%28%5Ctau%29%3D%5Cint_%7B-%5Cinfty%7D%5E%7B%5Cinfty%7Dx%28t%29y%5E*%28t-%5Ctau%29dt)
 
 Similarly, the cross-correlation of the discrete time signals x [n] and y [n] is expressed as
 
-    (add expression)
+![](https://latex.codecogs.com/gif.latex?Rxy%5Bm%5D%20%3D%20%5Csum_%7Bn%3D-%5Cinfty%7D%5E%7B%5Cinfty%7Dx%5Bn%5Dy%5E*%5Bn-m%5D)
 
 Learn more about this project, [click here](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Cross_correlation)
 
