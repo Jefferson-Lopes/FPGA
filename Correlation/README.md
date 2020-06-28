@@ -6,11 +6,13 @@ Depending on whether the signals considered for correlation are same or differen
 ## Autocorrelation
 This is a type of correlation in which the given signal is correlated with itself, usually the time-shifted version of itself. Mathematical expression for the autocorrelation of continuous time signal x (t) is given by
 
-    ![](https://latex.codecogs.com/gif.latex?R=x)
+![](https://latex.codecogs.com/gif.latex?Rxx%28%5Ctau%20%29%20%3D%20%5Cint_%7B-%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20x%28t%29x%5E*%28t%20-%20%5Ctau%20%29dt)
+
+where * denotes the complex conjugate.
 
 Similarly the autocorrelation of the discrete time signal x[n] is expressed as
 
-    (add expression)
+![](https://latex.codecogs.com/gif.latex?Rxx%5Bm%5D%20%3D%20%5Csum_%7Bn%3D-%5Cinfty%7D%5E%7B%5Cinfty%7Dx%5Bn%5Dx%5E*%5Bn-m%5D)
 
 Learn more about this project, [click here](https://github.com/Jefferson-Lopes/FPGA/tree/master/Correlation/Autocorrelation)
 
