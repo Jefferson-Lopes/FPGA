@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, /home/jeff/Documents/FPGA docs/Programs/test/test.v
-source_file = 1, /home/jeff/Documents/FPGA docs/Programs/test/debounce.sv
-source_file = 1, /home/jeff/Documents/FPGA docs/Programs/test/slow_clk.sv
+source_file = 1, C:/Users/jeff7/Documents/GitHub/FPGA/test/test.v
+source_file = 1, C:/Users/jeff7/Documents/GitHub/FPGA/test/debounce.sv
+source_file = 1, C:/Users/jeff7/Documents/GitHub/FPGA/test/slow_clk.sv
 design_name = test
 instance = comp, \led~output , led~output, test, 1
 instance = comp, \crystal~input , crystal~input, test, 1

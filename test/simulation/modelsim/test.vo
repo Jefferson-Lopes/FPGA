@@ -1,4 +1,4 @@
-// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
 // Your use of Intel Corporation's design tools, logic functions 
 // and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
@@ -15,9 +15,9 @@
 
 // VENDOR "Altera"
 // PROGRAM "Quartus Prime"
-// VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
 
-// DATE "07/16/2020 10:59:25"
+// DATE "07/16/2020 14:17:07"
 
 // 
 // Device: Altera EP4CE22F17C6 Package FBGA256
@@ -133,8 +133,8 @@ wire \dbINPUT|ff[1]~feeder_combout ;
 wire \dbINPUT|out~combout ;
 wire \led~0_combout ;
 wire \led~reg0_q ;
-wire [25:0] \dbINPUT|clk1|counter ;
 wire [2:0] \dbINPUT|ff ;
+wire [25:0] \dbINPUT|clk1|counter ;
 
 
 hard_block auto_generated_inst(
