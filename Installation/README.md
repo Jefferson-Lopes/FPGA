@@ -55,7 +55,7 @@ The next step is to permit for Quartus to access the USB Blaster used to load th
     $ cd /etc/udev/rules.d
     $ sudo nano 51-usbblaster.rules
 
-After that last command, the Nano program, which is a text editor, will open in the terminal. Copy the instructions below and use Ctrl + Shift + V to paste into the Nano.
+After that last command, the Nano program, which is a text editor, will open in the terminal. Copy the instructions below and use *Ctrl+Shift+V* to paste into the Nano.
 
     SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6001", MODE="0666"
     SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6002", MODE="0666"
@@ -64,7 +64,7 @@ After that last command, the Nano program, which is a text editor, will open in 
     SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6810", MODE="0666" 
 
 
-After pasting the text, use *Ctrl + O* to write to the file, *Enter* to save and *Ctrl + X* to exit Nano.
+After pasting the text, use *Ctrl+O* to write to the file, *Enter* to save and *Ctrl+X* to exit Nano.
 
 The installation is almost complete, but if you are on a virtual machine, you will have to turn it off to insert the USB Blaster, already connected to the FPGA, to the list of devices on your machine. After that, just turn it back on.
 
