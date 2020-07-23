@@ -9,11 +9,92 @@ The first thing you need to know before downloading the software is which packag
 
 ## Ubuntu
 
-From the Intel site.
+### Preparing the operating system
+
+First of all, it is important to keep the system up to date. Run the commands below: 
+
+    $ sudo apt update
+    $ sudo apt upgrade
+
+
+Run the commands below to add the 32-bit architecture and some more libraries:
+
+    $ sudo dpkg --add-architecture i386
+    $ sudo apt update
+    $ sudo apt install libxft2:i386 libxext6:i386 libncurses5:i386 bzip2:i386
+
+
+### Downloading the Software
+
+To avoid errors and simplify the installation, download Quartus through the Combined Files tab. Download link: https://fpgasoftware.intel.com/?edition=lite
+
+TIP: use Firefox to download, as it is one of the fastest browsers
+
+### Installation
+
+After downloading, go to the folder and extract the ***.tar*** file (this may take a while). Enter the folder that was extracted and right-click on the ***setup.sh*** file, go to properties, then permissions and ensure that reading and writing is enabled in all fields, as well as allowing you to run the file as a program.
+
+Then right-click on any blank space in the file manager, click open in the terminal, and type:
+
+    $ ./setup.sh
+ 
+After a few moments, the Quartus installation window will appear.
+
+**NOTE**: do not close the terminal as it is running the installer.
+
+Just like any Windows installation, click next until the program starts to be installed. Once installed, just close the installer and wait for Quartus to run for the first time. This first time a message will appear related to the software license, but just click on “run the Quartus Prime software” and wait to load.
+
+At this point, Quartus Prime is already installed on the system and can now be used as an IDE.
+
+**NOTE**: the terminal used to run the installer can now be closed
+
+### Permissions
+
+The next step is to permit for Quartus to access the USB Blaster used to load the programs on the FPGA. To give the necessary permissions, open a new terminal, and use the commands below:
+
+    $ cd /etc/udev/rules.d
+    $ sudo nano 51-usbblaster.rules
+
+After that last command, the Nano program, which is a text editor, will open in the terminal. Copy the instructions below and use Ctrl + Shift + V to paste into the Nano.
+
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6001", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6002", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6003", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6010", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6810", MODE="0666" 
+
+
+After pasting the text, use *Ctrl + O* to write to the file, *Enter* to save and *Ctrl + X* to exit Nano.
+
+The installation is almost complete, but if you are on a virtual machine, you will have to turn it off to insert the USB Blaster, already connected to the FPGA, to the list of devices on your machine. After that, just turn it back on.
+
+### Creating the icon
+
+The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to Home, then click on the burger in the upper right corner and select the option to show hidden files. Go to ***.local/share/applications*** and paste the file created on the desktop in that folder.
+
+The file is already in the right place, it just needs to be added to the list of applications. For that, if there is already a file in this folder called ***defaults.list***, just open it with a text editor of your choice and add the following instruction: ***Quartus (Quartus Prime 20.1) Lite Edition.desktop***
+
+If there are no ***defaults.list***, you will need to create it. To do this, right-click on any blank space in the file and open it in the terminal. Enter this command:
+
+    $ nano defaults.list 
+
+This will open the already mentioned text editor. Now just add the instruction ***Quartus (Quartus Prime 20.1) Lite Edition.desktop*** and follow the same steps as before to write, save, and exit.
+
+After adding the ***.desktop*** file, it's time to update the list of Ubuntu applications and run this command:
+
+    $ sudo update-mime-database /usr/share/mime
+
+After running the command, Quartus will already be integrated into your system. To open it, just search for Quartus in your application tab. This also allows it to be added to the bookmarks bar.
+
+### Errors correction
+
+The only mistake I came across after installation is about Quartus not being able to connect on the site to search for updates. This is easy to get around. Go to ***Tools->Options->InternetConnectivity*** and uncheck the option that asks to check for updates, then click OK and the next time you open Quartus you will not have any errors.
+
 
 ## Arch Linux
 
 From the Arch repository (*AUR*).
+
 
 ## Path error
 
