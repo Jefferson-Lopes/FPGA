@@ -70,7 +70,7 @@ The installation is almost complete, but if you are on a virtual machine, you wi
 
 ### Creating the icon
 
-The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to Home, then click on the burger in the upper right corner and select the option to show hidden files. Go to ***.local/share/applications*** and paste the file created on the desktop in that folder.
+The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to Home, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***.local/share/applications*** and paste the file created on the desktop in that folder.
 
 The file is already in the right place, it just needs to be added to the list of applications. For that, if there is already a file in this folder called ***defaults.list***, just open it with a text editor of your choice and add the following instruction: ***Quartus (Quartus Prime 20.1) Lite Edition.desktop***
 
