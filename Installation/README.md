@@ -70,7 +70,7 @@ The installation is almost complete, but if you are on a virtual machine, you wi
 
 ### Creating the icon
 
-The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to ***Home***, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***/.local/share/applications*** and paste the file created on the desktop in that folder.
+The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to ***Home***, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***/.local/share/applications*** and paste the ***.desktop*** file created on the desktop in that folder.
 
 ![File Manager](https://github.com/Jefferson-Lopes/FPGA/blob/master/Resources/fileManager.gif)
 
@@ -78,7 +78,7 @@ The next step will be to integrate the Quartus to your system. To do this, open 
 
 If no ***.desktop*** file was created, you must do it manually. So, to do that, already in the ***/.local/share/applications/*** folder, click on a blank space and open it in the terminal. Then run the command below:
 
-    $ sudo nano 'Quartus Prime Lite.desktop'
+    $ nano 'Quartus Prime Lite.desktop'
 
 The next step is to right-click on the file created in the file manager, then click open with another application, and finally, click open with the text editor. Copy the information below to the text editor that was opened, exchange ***USER*** in all paths for your user. Don't forget to update the version number of your software. In this case, the version was ***20.1***. After that, save and close the file.
 
@@ -96,13 +96,13 @@ The next step is to right-click on the file created in the file manager, then cl
 
 #### Add .desktop file to the system
 
-The file is already in the right place, it just needs to be added to the list of applications. For that, if there is already a file in this folder called ***defaults.list***, just open it with a text editor of your choice and add the following instruction: ***Quartus (Quartus Prime 20.1) Lite Edition.desktop***
+The file is already in the right place, it just needs to be added to the list of applications. For that, if there is already a file in this folder called ***defaults.list***, just open it with a text editor of your choice and add the following instruction: ***Quartus (Quartus Prime 20.1) Lite Edition.desktop***. But, if you had to create the ***.desktop*** file manually, the instruction will be: ***Quartus Prime Lite.desktop***
 
-If there are no ***defaults.list***, you will need to create it. To do this, right-click on any blank space in the file and open it in the terminal. Enter this command:
+If there are no ***defaults.list***, you will need to create it. To do this, right-click on any blank space in the file and open it in the terminal. Enter this command: 
 
     $ nano defaults.list 
 
-This will open the already mentioned text editor. Now just add the instruction ***Quartus (Quartus Prime 20.1) Lite Edition.desktop*** and follow the same steps as before to write, save, and exit.
+This will open the already mentioned text editor. Now just add the already commented instruction and follow the same steps as before to write, save, and exit.
 
 After adding the ***.desktop*** file, it's time to update the list of Ubuntu applications and run this command:
 
