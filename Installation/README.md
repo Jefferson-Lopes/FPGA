@@ -72,7 +72,7 @@ The installation is almost complete, but if you are on a virtual machine, you wi
 
 The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to ***Home***, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***/.local/share/applications*** and paste the file created on the desktop in that folder.
 
-![File Manager](../resources/fileManager.gif)
+![File Manager](https://github.com/Jefferson-Lopes/FPGA/blob/master/Resources/fileManager.gif)
 
 #### Creating .desktop file
 
