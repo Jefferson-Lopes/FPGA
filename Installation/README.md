@@ -17,7 +17,7 @@ First of all, it is important to keep the system up to date. Run the commands be
     $ sudo apt upgrade
 
 
-Run the commands below to add the 32-bit architecture and some more libraries:
+Quartus Prime uses some old libraries, still in the 32-bit standard. To make the system compatible with those libraries, run the commands below to add the 32-bit architecture and some more libraries:
 
     $ sudo dpkg --add-architecture i386
     $ sudo apt update
@@ -32,9 +32,9 @@ TIP: use Firefox to download, as it is one of the fastest browsers
 
 ### Installation
 
-After downloading, go to the folder and extract the ***.tar*** file (this may take a while). Enter the folder that was extracted and right-click on the ***setup.sh*** file, go to properties, then permissions and ensure that reading and writing is enabled in all fields, as well as allowing you to run the file as a program.
+After downloading, go to the folder were Quartus was downloaded and extract the ***.tar*** file (this may take a while). Enter the folder that was extracted and right-click on the ***setup.sh*** file, go to properties, then permissions and ensure that reading and writing is enabled in all fields, as well as allowing you to run the file as a program.
 
-Then right-click on any blank space in the file manager, click open in the terminal, and type:
+Then in the same directory, right-click on any blank space in the file manager, click open in the terminal, and type:
 
     $ ./setup.sh
  
@@ -64,13 +64,37 @@ After that last command, the Nano program, which is a text editor, will open in 
     SUBSYSTEM=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6810", MODE="0666" 
 
 
-After pasting the text, use *Ctrl+O* to write to the file, *Enter* to save and *Ctrl+X* to exit Nano.
+After pasting the text, use ***Ctrl+O*** to write to the file, ***Enter*** to save and ***Ctrl+X*** to exit Nano.
 
 The installation is almost complete, but if you are on a virtual machine, you will have to turn it off to insert the USB Blaster, already connected to the FPGA, to the list of devices on your machine. After that, just turn it back on.
 
 ### Creating the icon
 
-The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to Home, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***.local/share/applications*** and paste the file created on the desktop in that folder.
+The next step will be to integrate the Quartus to your system. To do this, open your file manager, go to ***Home***, then click on the hamburger menu in the upper right corner and select the option to show hidden files. Go to ***/.local/share/applications*** and paste the file created on the desktop in that folder.
+
+![File Manager](../resources/fileManager.gif)
+
+#### Creating .desktop file
+
+If no ***.desktop*** file was created, you must do it manually. So, to do that, already in the ***/.local/share/applications/*** folder, click on a blank space and open it in the terminal. Then run the command below:
+
+    $ sudo nano 'Quartus Prime Lite.desktop'
+
+The next step is to right-click on the file created in the file manager, then click open with another application, and finally, click open with the text editor. Copy the information below to the text editor that was opened, exchange ***USER*** in all paths for your user. Don't forget to update the version number of your software. In this case, the version was ***20.1***. After that, save and close the file.
+
+    [Desktop Entry]
+    Type=Application
+    Version=0.9.4
+    Name=Quartus Prime Lite
+    Comment=Quartus (Quartus Prime 20.1)
+    Icon=/home/USER/intelFPGA_lite/20.1/quartus/adm/quartusii.png
+    Exec=/home/USER/intelFPGA_lite/20.1/quartus/bin/quartus --64bit
+    Terminal=false
+    Path=/home/USER/intelFPGA_lite/20.1
+    Name[en_US]=Quartus Prime Lite
+
+
+#### Add .desktop file to the system
 
 The file is already in the right place, it just needs to be added to the list of applications. For that, if there is already a file in this folder called ***defaults.list***, just open it with a text editor of your choice and add the following instruction: ***Quartus (Quartus Prime 20.1) Lite Edition.desktop***
 
