@@ -108,6 +108,8 @@ After adding the ***.desktop*** file, it's time to update the list of Ubuntu app
 
     $ sudo update-mime-database /usr/share/mime
 
+NOTE: this command does not bring any output to the terminal
+
 After running the command, Quartus will already be integrated into your system. To open it, just search for Quartus in your application tab. This also allows it to be added to the bookmarks bar.
 
 ### Errors correction
