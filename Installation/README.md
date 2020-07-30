@@ -112,6 +112,12 @@ NOTE: this command does not bring any output to the terminal
 
 After running the command, Quartus will already be integrated into your system. To open it, just search for Quartus in your application tab. This also allows it to be added to the bookmarks bar.
 
+### Uninstallation
+
+Go to ***/home/intelFPGA_lite/20.1/uninstall/***, right-click on the file quartus_lite-uninstall.run, go to properties, then permissions and allow reading and writing for all options, and allowing to run as a program.
+
+After giving the necessary permissions, double click on the file and wait for the uninstall window to appear. Then just click on next until the uninstall is complete.
+
 ### Errors correction
 
 The only mistake I came across after installation is about Quartus not being able to connect on the site to search for updates. This is easy to get around. Go to ***Tools->Options->InternetConnectivity*** and uncheck the option that asks to check for updates, then click OK and the next time you open Quartus you will not have any errors.
