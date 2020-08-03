@@ -1,5 +1,5 @@
 Analysis & Synthesis report for nios
-Mon Aug 03 10:53:40 2020
+Mon Aug 03 14:34:32 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -162,7 +162,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Aug 03 10:53:40 2020       ;
+; Analysis & Synthesis Status        ; Successful - Mon Aug 03 14:34:32 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; nios                                        ;
 ; Top-level Entity Name              ; nios                                        ;
@@ -3066,7 +3066,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Mon Aug 03 10:52:48 2020
+    Info: Processing started: Mon Aug 03 14:33:34 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off nios -c nios
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -3347,7 +3347,7 @@ Info (12128): Elaborating entity "altera_reset_controller" for hierarchy "altera
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1" File: C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/nios/synthesis/submodules/altera_reset_controller.v Line: 208
 Info (12128): Elaborating entity "altera_reset_synchronizer" for hierarchy "altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_req_sync_uq1" File: C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/nios/synthesis/submodules/altera_reset_controller.v Line: 220
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2020.08.03.10:53:17 Progress: Loading sld4ce0cdad/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2020.08.03.14:34:09 Progress: Loading sld4ce0cdad/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -3384,10 +3384,10 @@ Info (21057): Implemented 1814 device resources after synthesis - the final reso
     Info (21061): Implemented 1664 logic cells
     Info (21064): Implemented 144 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4874 megabytes
-    Info: Processing ended: Mon Aug 03 10:53:40 2020
-    Info: Elapsed time: 00:00:52
-    Info: Total CPU time (on all processors): 00:01:21
+    Info: Peak virtual memory: 4877 megabytes
+    Info: Processing ended: Mon Aug 03 14:34:33 2020
+    Info: Elapsed time: 00:00:59
+    Info: Total CPU time (on all processors): 00:01:05
 
 
 +------------------------------------------+

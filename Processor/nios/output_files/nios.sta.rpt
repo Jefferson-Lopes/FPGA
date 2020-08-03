@@ -1,5 +1,5 @@
 Timing Analyzer report for nios
-Mon Aug 03 10:54:28 2020
+Mon Aug 03 14:35:10 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -108,12 +108,12 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.05        ;
+; Average used               ; 1.02        ;
 ; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   5.1%      ;
+;     Processor 2            ;   2.3%      ;
 +----------------------------+-------------+
 
 
@@ -122,8 +122,8 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                         ; Status ; Read at                  ;
 +-------------------------------------------------------+--------+--------------------------+
-; nios/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Mon Aug 03 10:54:23 2020 ;
-; nios/synthesis/submodules/nios_nios2_gen2_0_cpu.sdc   ; OK     ; Mon Aug 03 10:54:23 2020 ;
+; nios/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Mon Aug 03 14:35:06 2020 ;
+; nios/synthesis/submodules/nios_nios2_gen2_0_cpu.sdc   ; OK     ; Mon Aug 03 14:35:06 2020 ;
 +-------------------------------------------------------+--------+--------------------------+
 
 
@@ -1643,7 +1643,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Mon Aug 03 10:54:21 2020
+    Info: Processing started: Mon Aug 03 14:35:04 2020
 Info: Command: quartus_sta nios -c nios
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1803,8 +1803,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 16 warnings
     Info: Peak virtual memory: 4788 megabytes
-    Info: Processing ended: Mon Aug 03 10:54:28 2020
-    Info: Elapsed time: 00:00:07
+    Info: Processing ended: Mon Aug 03 14:35:10 2020
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:03
 
 

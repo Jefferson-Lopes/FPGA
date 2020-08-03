@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\Processor\\nios\\software\\nios
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\Processor\\nios\\software\\nios-test
 newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\Processor\\nios\\nios.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\Processor\\nios\\software\\nios_bsp
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\Processor\\nios\\software\\nios-test_bsp

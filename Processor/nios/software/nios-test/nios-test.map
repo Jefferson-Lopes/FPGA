@@ -1,0 +1,454 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o (alt_load)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o (alt_main)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+                              obj/default/hello_world_small.o (alt_putstr)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o) (altera_avalon_jtag_uart_write)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o) (strlen)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000001000 0x0000000000000020
+onchip_memory2_0 0x0000000000001020 0x0000000000000fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/mno-hw-mul\libgcc.a
+LOAD C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/mno-hw-mul\libgcc.a
+                0x0000000000001000                __alt_mem_onchip_memory2_0 = 0x1000
+
+.entry          0x0000000000001000       0x20
+ *(.entry)
+ .entry         0x0000000000001000       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+                0x0000000000001000                __reset
+                0x000000000000100c                _exit
+
+.exceptions     0x0000000000001020        0x0
+                0x0000000000001020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000001020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000001020                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000001020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000001020      0x1ec
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001020       0x3c C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+                0x0000000000001020                _start
+ .text          0x000000000000105c        0x0 obj/default/hello_world_small.o
+ .text.startup  0x000000000000105c       0x18 obj/default/hello_world_small.o
+                0x000000000000105c                main
+ .text          0x0000000000001074       0xb4 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000001074                alt_load
+ .text          0x0000000000001128       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000001128                alt_main
+ .text          0x0000000000001154       0x38 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+                0x0000000000001154                alt_putstr
+ .text          0x000000000000118c       0x24 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000000118c                alt_irq_init
+                0x00000000000011ac                alt_sys_init
+ .text          0x00000000000011b0       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000011b0                altera_avalon_jtag_uart_write
+ .text          0x00000000000011e0        0x4 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000011e0                alt_dcache_flush_all
+ .text          0x00000000000011e4        0x4 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000011e4                alt_icache_flush_all
+ .text          0x00000000000011e8        0x8 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000011e8                altera_nios2_gen2_irq_init
+ .text          0x00000000000011f0        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000000011f0       0x1c c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x00000000000011f0                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000120c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000120c                . = ALIGN (0x4)
+
+.rodata         0x000000000000120c       0x18
+                0x000000000000120c                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x000000000000120c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000120c       0x18 obj/default/hello_world_small.o
+                                         0x15 (size before relaxing)
+ *(.rodata1)
+                0x0000000000001224                . = ALIGN (0x4)
+                0x0000000000001224                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x000000000000120c                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000000000001224        0x4 load address 0x0000000000001228
+                0x0000000000001224                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000000000001224                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .data          0x0000000000001224        0x0 obj/default/hello_world_small.o
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000001224        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000001224        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000009224                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000001224        0x4 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000001224                jtag_uart_0
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000001228                . = ALIGN (0x4)
+                0x0000000000001228                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000001228                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000001228                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x000000000000122c        0xc
+                0x000000000000122c                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000000122c        0xc C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000000122c                alt_envp
+                0x0000000000001230                alt_argv
+                0x0000000000001234                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .bss           0x0000000000001238        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000001238        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000001238        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+                0x0000000000001238                . = ALIGN (0x4)
+                0x0000000000001238                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000000000001238        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000000001238                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x0000000000001238                _end = ABSOLUTE (.)
+                0x0000000000001238                end = ABSOLUTE (.)
+                0x0000000000001238                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/hello_world_small.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x168
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000048       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000108       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000128       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000148       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5ae3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022       0x67 obj/default/hello_world_small.o
+ .debug_info    0x0000000000000089      0xaea C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000b73      0xeac C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000001a1f      0x9c0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_info    0x00000000000023df      0xa5f C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000002e3e      0xaa8 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00000000000038e6      0x931 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000004217      0x931 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000004b48      0x952 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000000000000549a      0x649 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x0000000000000000     0x13a0
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x65 obj/default/hello_world_small.o
+ .debug_abbrev  0x0000000000000077      0x277 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000002ee      0x252 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000540      0x249 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_abbrev  0x0000000000000789      0x279 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000a02      0x251 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000c53      0x1e0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000e33      0x1e0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001013      0x1e5 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00000000000011f8      0x1a8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x0000000000000000     0x126c
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066       0xc9 obj/default/hello_world_small.o
+ .debug_line    0x000000000000012f      0x255 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000384      0x2f7 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000067b      0x190 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_line    0x000000000000080b      0x1f2 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000009fd      0x243 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000000c40      0x17f C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000dbf      0x17d C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000f3c      0x139 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001075      0x1f7 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x0000000000000000      0x190
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x28 obj/default/hello_world_small.o
+ .debug_frame   0x0000000000000028       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000058       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000084       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_frame   0x00000000000000b4       0x3c C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000000f0       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000110       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000130       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000150       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000170       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x0000000000000000      0xb9e
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x69 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000069       0xb8 obj/default/hello_world_small.o
+                                         0xbd (size before relaxing)
+ .debug_str     0x0000000000000121      0x516 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x636 (size before relaxing)
+ .debug_str     0x0000000000000637      0x264 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x7f1 (size before relaxing)
+ .debug_str     0x000000000000089b       0x66 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+                                        0x582 (size before relaxing)
+ .debug_str     0x0000000000000901       0x90 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x62f (size before relaxing)
+ .debug_str     0x0000000000000991       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x63a (size before relaxing)
+ .debug_str     0x00000000000009bd       0x1f C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x54f (size before relaxing)
+ .debug_str     0x00000000000009dc       0x1f C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x54f (size before relaxing)
+ .debug_str     0x00000000000009fb       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x563 (size before relaxing)
+ .debug_str     0x0000000000000a1b      0x183 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x4d0 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x1a1
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x66 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000000000000066       0x3f C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_loc     0x00000000000000a5       0x25 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000000000000ca       0x93 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000000000000015d       0x44 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+                0x0000000000002000                __alt_data_end = 0x2000
+                0x0000000000002000                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x2000)
+OUTPUT(nios-test.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0xe0
+ .debug_ranges  0x0000000000000000       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000030       0xa0 C:/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x00000000000000d0       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)

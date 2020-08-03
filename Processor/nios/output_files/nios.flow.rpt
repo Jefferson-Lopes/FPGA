@@ -1,5 +1,5 @@
 Flow report for nios
-Mon Aug 03 10:54:27 2020
+Mon Aug 03 14:35:10 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Aug 03 10:54:19 2020       ;
+; Flow Status                        ; Successful - Mon Aug 03 14:35:03 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; nios                                        ;
 ; Top-level Entity Name              ; nios                                        ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/03/2020 10:52:49 ;
+; Start date & time ; 08/03/2020 14:33:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; nios                ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+--------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+--------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 277375815847340.159646276905496                        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 277375815847340.159647601511032                        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; nios/synthesis/../nios.cmp                             ; --            ; --          ; --         ;
@@ -101,11 +101,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:48     ; 1.0                     ; 4874 MB             ; 00:01:18                           ;
-; Fitter               ; 00:00:28     ; 1.0                     ; 5290 MB             ; 00:00:13                           ;
+; Analysis & Synthesis ; 00:00:53     ; 1.0                     ; 4877 MB             ; 00:01:02                           ;
+; Fitter               ; 00:00:21     ; 1.0                     ; 5293 MB             ; 00:00:12                           ;
 ; Assembler            ; 00:00:03     ; 1.0                     ; 4698 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 4788 MB             ; 00:00:03                           ;
-; Total                ; 00:01:25     ; --                      ; --                  ; 00:01:36                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 4788 MB             ; 00:00:03                           ;
+; Total                ; 00:01:23     ; --                      ; --                  ; 00:01:19                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

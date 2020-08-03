@@ -1,0 +1,9 @@
+15:04:35 **** Incremental Build of configuration Nios II for project nios-test ****
+wsl make all 
+Info: Building /mnt/c/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/
+make --no-print-directory -C /mnt/c/Users/jeff7/Documents/GitHub/FPGA/Processor/nios/software/nios-test_bsp/
+[BSP build complete]
+[nios-test build complete]
+
+15:04:36 Build Finished (took 775ms)
+
