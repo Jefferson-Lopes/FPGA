@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Library,Library/Interface Protocols,Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Project,Library/Basic Functions,Library/Interface Protocols/Serial,Library/Basic Functions/Simulation; Debug and Verification,Library/Basic Functions/Bridges and Adaptors" />
+ <window width="1382" height="784" x="-8" y="-8" />
+</preferences>

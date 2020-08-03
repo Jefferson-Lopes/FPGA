@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Aug 03 10:54:09 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : nios
+Top-level Entity Name : nios
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,575 / 22,320 ( 7 % )
+    Total combinational functions : 1,473 / 22,320 ( 7 % )
+    Dedicated logic registers : 857 / 22,320 ( 4 % )
+Total registers : 857
+Total pins : 1 / 154 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 44,032 / 608,256 ( 7 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
