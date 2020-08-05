@@ -2,7 +2,7 @@
 
 *.sld linguist-language=SystemVerilog
 
-*.html linguist-language=SystemVerilog
+*.html linguist-language=VHDL
 
 *.mk linguist-language=Verilog
 
