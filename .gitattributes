@@ -24,4 +24,8 @@ Makefile linguist-language=Verilog
 
 create-this-bsp linguist-language=Verilog
 
+create-this-app linguist-language=Verilog
+
 *.properties linguist-language=Verilog
+
+*.ini linguist-language=Verilog
