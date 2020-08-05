@@ -3,3 +3,13 @@
 *.sld linguist-language=SystemVerilog
 
 *.html linguist-language=SystemVerilog
+
+*.mk linguist-language=Verilog
+
+*.d linguist-language=Verilog
+
+*.makefile linguist-language=Verilog
+
+*.sh linguist-language=Verilog
+
+*.asm linguist-language=Verilog
