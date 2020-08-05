@@ -6,9 +6,13 @@
 
 *.mk linguist-language=Verilog
 
-*.d linguist-language=Verilog
+Makefile linguist-language=Verilog
+
+*Makefile linguist-language=Verilog
 
 *.makefile linguist-language=Verilog
+
+*.d linguist-language=Verilog
 
 *.sh linguist-language=Verilog
 
