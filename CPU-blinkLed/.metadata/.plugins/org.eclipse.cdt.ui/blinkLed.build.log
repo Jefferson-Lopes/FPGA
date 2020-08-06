@@ -1,0 +1,19 @@
+14:21:27 **** Incremental Build of configuration Nios II for project blinkLed ****
+wsl make all 
+Info: Building /mnt/c/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/
+make --no-print-directory -C /mnt/c/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/
+[BSP build complete]
+Info: Linking blinkLed.elf
+nios2-elf-g++.exe  -T'C:/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/linker.x' -msys-crt0='C:/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LC:/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/   -Wl,-Map=blinkLed.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o blinkLed.elf obj/default/hello_world.o -lm -msys-lib=m
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: C:/Users/jeff7/Documents/GitHub/FPGA/CPU-blinkLed/software/blinkLed_bsp/\libhal_bsp.a(alt_sys_init.o): in function `alt_sys_init':
+C:\Users\jeff7\Documents\GitHub\FPGA\CPU-blinkLed\software\blinkLed_bsp/alt_sys_init.c:92: warning: Error: Interrupt not connected for JTAG_UART. You have selected the interrupt driven version of the ALTERA Avalon JTAG UART driver, but the interrupt is not connected for this device. You can select a polled mode driver by checking the 'small driver' option in the HAL configuration window, or by using the -DALTERA_AVALON_JTAG_UART_SMALL preprocessor flag.
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xef34 of blinkLed.elf section `.rwdata' is not within region `onchip_memory2'
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x10af4 of blinkLed.elf section `.bss' is not within region `onchip_memory2'
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xef34 of blinkLed.elf section `.rwdata' is not within region `onchip_memory2'
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x10af4 of blinkLed.elf section `.bss' is not within region `onchip_memory2'
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: C:\Users\jeff7\Documents\GitHub\FPGA\CPU-blinkLed\software\blinkLed_bsp/alt_sys_init.c:92: undefined reference to `__alt_invalid'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Makefile:1011: blinkLed.elf] Error 1
+
+14:21:28 Build Finished (took 1s.480ms)
+

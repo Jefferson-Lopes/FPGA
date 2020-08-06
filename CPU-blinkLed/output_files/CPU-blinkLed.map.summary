@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Aug 06 13:45:17 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : CPU-blinkLed
+Top-level Entity Name : CPUblinkLed
+Family : Cyclone IV E
+Total logic elements : 3,519
+    Total combinational functions : 2,876
+    Dedicated logic registers : 1,974
+Total registers : 1974
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 271,360
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0

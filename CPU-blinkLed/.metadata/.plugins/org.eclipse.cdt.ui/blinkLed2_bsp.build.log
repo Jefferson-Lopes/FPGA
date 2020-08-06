@@ -1,0 +1,6 @@
+14:16:14 **** Clean-only build of configuration Nios II for project blinkLed2_bsp ****
+wsl make clean 
+[BSP clean complete]
+
+14:16:15 Build Finished (took 987ms)
+
