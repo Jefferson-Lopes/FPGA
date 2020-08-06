@@ -8,7 +8,7 @@ This program blinks the LED using the C language, running on the built-in proces
 
 The image below shows the modules used in conjunction with the NIOS II processor, available from Intel.
 
-![design](../resources/design.png)
+![design](../Resources/design.png)
 
 To complement the NIOS II processor and make connections with other external modules, as in this case, the LEDs of the DE0 NANO, the code in Verilog below was used.
 
@@ -57,4 +57,4 @@ int main(){
 
 The printf output used in the C code is given in the Eclipse console, as shown in the image below.
 
-![console](../resources/blinkLedConsole.png)
+![console](../Resources/blinkLedConsole.png)
