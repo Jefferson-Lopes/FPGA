@@ -8,6 +8,7 @@ The image below shows the modules used in conjunction with the NIOS II processor
 
 ![design](../Resources/design.png)
 
+
 To complement the NIOS II processor and make connections with other external modules, as in this case, the LEDs of the DE0 NANO, the code in Verilog below was used.
 
 ~~~verilog
