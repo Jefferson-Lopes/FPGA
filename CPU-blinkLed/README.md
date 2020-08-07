@@ -2,8 +2,6 @@
 
 This program blinks the LED using the C language, running on the built-in processor for the FPGA DE0 nano.
 
-(add gif)
-
 ## Hardware description
 
 The image below shows the modules used in conjunction with the NIOS II processor, available from Intel.
