@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\CPUcounter\\software\\counter
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\CPUcounter\\software\\counter2
 newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\CPUcounter\\CPU.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\CPUcounter\\software\\counter_bsp
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jeff7\\Documents\\GitHub\\FPGA\\CPUcounter\\software\\counter2_bsp

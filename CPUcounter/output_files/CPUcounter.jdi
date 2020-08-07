@@ -1,11 +1,11 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="24e3c7774d5b01aacc8d"/>
+    <hash md5_digest_80b="ba7f23881a7fc701eba2"/>
   </project>
   <file_info>
-    <file device="EP4CE22F17C6" path="CPUcounter_time_limited.sof" usercode="0xFFFFFFFF"/>
+    <file device="EP4CE22F17C6" path="CPUcounter.sof" usercode="0xFFFFFFFF"/>
   </file_info>
-  <hub_info hub_ir_width="5" ir_width="2" node_addr_width="2" node_count="3"/>
+  <hub_info hub_ir_width="5" ir_width="2" node_addr_width="2" node_count="2"/>
   <node_info>
     <node hpath="CPU:CPU_inst|CPU_jtag_uart:jtag_uart|alt_jtag_atlantic:CPU_jtag_uart_alt_jtag_atlantic" instance_id="0" mfg_id="110" node_id="128" sld_node_info="0xC006E00" version="1">
       <parameters>
@@ -135,12 +135,11 @@
         <port name="jtag.bp.CPU_inst_nios2_gen2_cpu_the_CPU_nios2_gen2_cpu_nios2_oci_the_CPU_nios2_gen2_cpu_debug_slave_wrapper_CPU_nios2_gen2_cpu_debug_slave_phy_sld_virtual_jtag_impl_inst_ir_out_1_"/>
       </outputs>
     </node>
-    <node hpath="pzdyqx:nabboc" instance_id="0" mfg_id="110" node_id="1" sld_node_info="0x86E00" version="0"/>
   </node_info>
   <sld_infos>
     <sld_info hpath="CPU:CPU_inst" name="CPU_inst">
       <assignment_values>
-        <assignment_value text="QSYS_NAME CPU HAS_SOPCINFO 1 GENERATION_ID 1596808567"/>
+        <assignment_value text="QSYS_NAME CPU HAS_SOPCINFO 1 GENERATION_ID 1596823996"/>
       </assignment_values>
       <parameters/>
     </sld_info>
