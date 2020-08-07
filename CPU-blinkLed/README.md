@@ -27,6 +27,7 @@ endmodule
 
 After all the hardware is finished, software development begins. In this case, C software was created to blink the first LED on the DE0 NANO board. Below is the C code used.
 
+
 ~~~C
 #include "stdio.h"
 #include "system.h"
