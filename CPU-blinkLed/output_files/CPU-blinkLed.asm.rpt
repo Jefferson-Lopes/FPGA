@@ -1,5 +1,5 @@
 Assembler report for CPU-blinkLed
-Thu Aug 06 13:46:07 2020
+Fri Aug 07 10:44:04 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Aug 06 13:46:07 2020 ;
+; Assembler Status      ; Successful - Fri Aug 07 10:44:04 2020 ;
 ; Revision Name         ; CPU-blinkLed                          ;
 ; Top-level Entity Name ; CPUblinkLed                           ;
 ; Family                ; Cyclone IV E                          ;
@@ -90,7 +90,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Thu Aug 06 13:46:02 2020
+    Info: Processing started: Fri Aug 07 10:44:01 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off CPU-blinkLed -c CPU-blinkLed
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
@@ -99,8 +99,8 @@ Info (115017): Design contains a time-limited core -- only a single, time-limite
 Warning (210042): Can't convert time-limited SOF into POF, HEX File, TTF, or RBF
 Info: Quartus Prime Assembler was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4708 megabytes
-    Info: Processing ended: Thu Aug 06 13:46:07 2020
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Fri Aug 07 10:44:04 2020
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

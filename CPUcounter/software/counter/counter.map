@@ -1,0 +1,591 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                              obj/default/hello_world_small.o (puts)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (strlen)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (__sfvwrite_small_dev)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (_impure_ptr)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (errno)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o (alt_load)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o (alt_main)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (write)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o) (altera_avalon_jtag_uart_write)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000008000 0x0000000000000020
+onchip_memory2   0x0000000000008020 0x0000000000006570
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+LOAD C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+                0x0000000000008000                __alt_mem_onchip_memory2 = 0x8000
+
+.entry          0x0000000000008000       0x20
+ *(.entry)
+ .entry         0x0000000000008000       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+                0x0000000000008000                __reset
+                0x000000000000801c                _exit
+
+.exceptions     0x0000000000008020        0x0
+                0x0000000000008020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000008020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000008020                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000008020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000008020      0x428
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008020       0x4c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+                0x0000000000008020                _start
+ .text          0x000000000000806c        0x0 obj/default/hello_world_small.o
+ .text.startup  0x000000000000806c       0x3c obj/default/hello_world_small.o
+                0x000000000000806c                main
+ .text          0x00000000000080a8        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x00000000000080a8       0x84 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x00000000000080a8                _puts_r
+ .text.puts     0x000000000000812c       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x000000000000812c                puts
+ .text          0x000000000000813c        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x000000000000813c       0x1c c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x000000000000813c                strlen
+ .text          0x0000000000008158        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x0000000000008158       0xa8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x0000000000008158                __sfvwrite_small_dev
+ .text          0x0000000000008200        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000008200        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x0000000000008200       0x50 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                0x0000000000008200                _write_r
+ .text          0x0000000000008250        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000008250       0xb4 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000008250                alt_load
+ .text          0x0000000000008304       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000008304                alt_main
+ .text          0x0000000000008330       0x60 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+                0x0000000000008330                write
+ .text          0x0000000000008390       0x24 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000008390                alt_irq_init
+                0x00000000000083b0                alt_sys_init
+ .text          0x00000000000083b4       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000083b4                altera_avalon_jtag_uart_write
+ .text          0x00000000000083e4       0x18 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000083e4                alt_dcache_flush_all
+ .text          0x00000000000083fc        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000083fc        0xc C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000083fc                alt_icache_flush_all
+ .text          0x0000000000008408        0x8 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000008408                altera_nios2_gen2_irq_init
+ .text          0x0000000000008410       0x38 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000008410                alt_icache_flush
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000008448                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000008448                . = ALIGN (0x4)
+
+.rodata         0x0000000000008448       0x14
+                0x0000000000008448                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000008448                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000008448        0xd obj/default/hello_world_small.o
+ *fill*         0x0000000000008455        0x3 
+ .rodata._puts_r.str1.4
+                0x0000000000008458        0x4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x000000000000845c                . = ALIGN (0x4)
+                0x000000000000845c                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000008448                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x000000000000845c       0xf4 load address 0x0000000000008550
+                0x000000000000845c                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x000000000000845c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000845c        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .data          0x000000000000845c        0x0 obj/default/hello_world_small.o
+ .data          0x000000000000845c        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .data          0x000000000000845c        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .data          0x000000000000845c        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x000000000000845c        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x000000000000845c       0xe4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000008540        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000008540        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000008540        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000010540                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x0000000000008540        0x4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x0000000000008540                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000008544        0x4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x0000000000008544                _impure_ptr
+ .sdata         0x0000000000008548        0x4 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000008548                jtag_uart
+ .sdata         0x000000000000854c        0x4 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+                0x000000000000854c                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000008550                . = ALIGN (0x4)
+                0x0000000000008550                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000008550                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000008550                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000008644       0x10
+                0x0000000000008644                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000008644        0x4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000008644                errno
+ .sbss          0x0000000000008648        0xc C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000008648                alt_envp
+                0x000000000000864c                alt_argv
+                0x0000000000008650                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .bss           0x0000000000008654        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000008654        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000008654        0x0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ *(COMMON)
+                0x0000000000008654                . = ALIGN (0x4)
+                0x0000000000008654                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2
+                0x0000000000008654        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_start = ABSOLUTE (.))
+ *(.onchip_memory2 .onchip_memory2. onchip_memory2.*)
+                0x0000000000008654                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_end = ABSOLUTE (.))
+                0x0000000000008654                _end = ABSOLUTE (.)
+                0x0000000000008654                end = ABSOLUTE (.)
+                0x0000000000008654                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_load_addr = LOADADDR (.onchip_memory2))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/hello_world_small.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x238
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000048       0x28 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x0000000000000070       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000090       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x00000000000000b0       0x18 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x00000000000000e8       0x18 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000100       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000120       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000140       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000160       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000180       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000001c0       0x18 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000218       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xa245
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0x980 obj/default/hello_world_small.o
+ .debug_info    0x00000000000009a2      0x8ef c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000001291      0x649 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000018da      0x8c4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x000000000000219e      0x6e8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000002886      0x720 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000002fa6      0x614 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00000000000035ba      0xaea C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000040a4      0xeac C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000004f50      0xf05 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000000000005e55      0xa5f C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000000000068b4      0xaa8 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000000000000735c      0x944 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000007ca0      0x96f C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000000000000860f      0x958 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000008f67      0x952 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000098b9      0x98c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_abbrev   0x0000000000000000     0x2321
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x20b obj/default/hello_world_small.o
+ .debug_abbrev  0x000000000000021d      0x225 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000000442      0x1a8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000000000005ea      0x238 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000000822      0x18d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000000000009af      0x1ec c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000000b9b      0x186 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000000d21      0x277 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000f98      0x252 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000011ea      0x28a C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000001474      0x279 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000000000016ed      0x251 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000193e      0x1f4 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001b32      0x1df C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001d11      0x20f C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001f20      0x1e5 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000002105      0x21c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_line     0x0000000000000000     0x220c
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x1b9 obj/default/hello_world_small.o
+ .debug_line    0x000000000000022b      0x25e c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x0000000000000489      0x1f4 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x000000000000067d      0x26d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x00000000000008ea      0x157 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000000a41      0x223 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000000c64      0x1c8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000000e2c      0x255 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000001081      0x2f7 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000001378      0x2dd C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000001655      0x1f2 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000001847      0x243 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000001a8a      0x19e C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001c28      0x131 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000001d59      0x1a3 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001efc      0x139 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000002035      0x1d7 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_frame    0x0000000000000000      0x260
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x28 obj/default/hello_world_small.o
+ .debug_frame   0x0000000000000028       0x48 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000070       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000090       0x3c c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x00000000000000cc       0x30 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x00000000000000fc       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000000000000012c       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000158       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000184       0x3c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000001c0       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000001e0       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000200       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000220       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000240       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_str      0x0000000000000000      0xf83
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x63 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000063      0x494 obj/default/hello_world_small.o
+                                        0x544 (size before relaxing)
+ .debug_str     0x00000000000004f7      0x2b3 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                                        0x609 (size before relaxing)
+ .debug_str     0x00000000000007aa       0xc6 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                                        0x4b6 (size before relaxing)
+ .debug_str     0x0000000000000870       0x62 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x61c (size before relaxing)
+ .debug_str     0x00000000000008d2      0x10f c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                                        0x50d (size before relaxing)
+ .debug_str     0x00000000000009e1       0x44 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                                        0x4f2 (size before relaxing)
+ .debug_str     0x0000000000000a25       0x3e c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x0000000000000a63      0x11b C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x62d (size before relaxing)
+ .debug_str     0x0000000000000b7e      0x237 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x7e8 (size before relaxing)
+ .debug_str     0x0000000000000db5       0x74 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x801 (size before relaxing)
+ .debug_str     0x0000000000000e29       0x90 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x624 (size before relaxing)
+ .debug_str     0x0000000000000eb9       0x2c C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x631 (size before relaxing)
+ .debug_str     0x0000000000000ee5       0x1f C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x546 (size before relaxing)
+ .debug_str     0x0000000000000f04       0x14 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x543 (size before relaxing)
+ .debug_str     0x0000000000000f18       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x557 (size before relaxing)
+ .debug_str     0x0000000000000f48       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x55a (size before relaxing)
+ .debug_str     0x0000000000000f68       0x1b C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x54c (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x5dc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x78 obj/default/hello_world_small.o
+ .debug_loc     0x0000000000000078       0xab c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x0000000000000123       0x44 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000000000000167      0x123 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x000000000000028a       0xd0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x000000000000035a       0x66 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000000000003c0       0xc3 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_loc     0x0000000000000483       0x25 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000000000004a8       0x93 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000000000000053b       0x23 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x000000000000055e       0x7e C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+                0x000000000000e590                __alt_data_end = 0xe590
+                0x000000000000e590                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0xe590)
+OUTPUT(counter.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x148
+ .debug_ranges  0x0000000000000000       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000030       0x18 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000000048       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000058       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x0000000000000068       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000078       0xa0 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000118       0x20 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_ranges  0x0000000000000138       0x10 C:/Users/jeff7/Documents/GitHub/FPGA/CPUcounter/software/counter_bsp/\libhal_bsp.a(alt_icache_flush.o)
