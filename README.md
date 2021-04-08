@@ -17,7 +17,7 @@ DE0-nano: Cyclone IV EP4CE22F17C6N
 
 ## Quartus Prime installation
 
-For a complete guide of Quartus Prime installation in all platforms, [click here](https://github.com/Jefferson-Lopes/FPGA/tree/master/Installation).
+For a complete guide of Quartus Prime installation in all platforms, [click here](https://github.com/Jefferson-Lopes/quartus-installation).
 
 ## Contact me
 [![](Resources/gmail.png)](mailto:jefferson.lopes@ee.ufcg.edu.br?subject=[GitHub]%20FPGA%20-%20main) ![](Resources/separador.png) [![](Resources/insta.png)](https://instagram.com/jeff.777.lopes?igshid=1i5gr7ch0bvkd)
